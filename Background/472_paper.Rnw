@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage{Sweave}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{siunitx}
+\usepackage{mdframed}
+\usepackage{natbib}
+\bibliographystyle{..//refs/styles/besjournals.bst}
+\usepackage[small]{caption}
+\setkeys{Gin}{width=0.8\textwidth}
+\setlength{\captionmargin}{30pt}
+\setlength{\abovecaptionskip}{0pt}
+\setlength{\belowcaptionskip}{10pt}
+\topmargin -1.5cm        
+\oddsidemargin -0.04cm   
+\evensidemargin -0.04cm
+\textwidth 16.59cm
+\textheight 21.94cm 
+%\pagestyle{empty} %comment if want page numbers
+\parskip 0pt
+\renewcommand{\baselinestretch}{1.5}
+\parindent 10pt
+
+\newmdenv[
+  topline=true,
+  bottomline=true,
+  skipabove=\topsep,
+  skipbelow=\topsep
+]{siderules}
+\begin{document}
+\title{Memory effects in tree phenology}
+\author{Daniel Buonaiuto}
+\data{\today}
+
+\section*{Introduction}
+Phenology- definition-important ecosystem structuring process
+\par
+For temperate trees, spring phenology is trade off, optimized between frost damage risk and and extending growing season.\\
+Spring climate patterns are unstable, so optimum timing is maintained through plasticisity.\\
+Plasticity is only adaptive with reliable environmental cues\\
+Climate change is already causing organisms to shift their phenology.\\
+Signature of climate changed is not just warming trend, but increasing variability in shoulder seasons, more frequent extreme events.\\
+Environmental cues might become less reliable.\\
+Memory effects, produced by gene x environment interactions, may be an important mechanism that shapes the plastic response of phenology, allowing trees to extract more reliable "information" about their environment and fine tune their phenological response in the face of the stochastic climate early spring". These effects are doccumented in other plant and animal systems but we will restrict our conversation to temperate trees.\\
+The following paper will further explore these memory effects, and how they may be adaptive for forest trees in the anthropocene.\\
+In part 1, I will breifly discuss the environmental cues influencing the phenology of temperate species and review evidence for how trees percieve these cues.\\
+In part 2, I broadly introduce the topic of memory effected, and partition memory effects into two categories, intergenerationl effects, and seasonal carryover. I will discuss the evidence for each category of effects in the literature and explore the adaptive signficance of each resposne in light of climate change.\\
+In part 3, I will discuss directions for further research, with a particular focus of seasonal carryover effects, which has been understudied in the evolutionary ecology field.\\
+\section{Phenologic Cues}
+forcing\\
+chilling\\
+photoperiod\\
+perception\\
+\section{Intergenerational Parental Effects}
+General: Maternal or Paternal, little evidence for paternal so I will primarnily discuss maternal.\\
+Adaptive significance. Less responsive to variation\\
+\section{Carryover Effects}
+\subsection{Between phenophases}
+\subsection{Between seasons}
+\section{Future Directions}
+
+
+
+\end{document}
