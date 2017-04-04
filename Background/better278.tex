@@ -1,0 +1,106 @@
+\documentclass{article}\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+\usepackage{Sweave}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{siunitx}
+\usepackage{mdframed}
+\usepackage{natbib}
+\bibliographystyle{..//refs/styles/besjournals.bst}
+\usepackage[small]{caption}
+\setkeys{Gin}{width=0.8\textwidth}
+\setlength{\captionmargin}{30pt}
+\setlength{\abovecaptionskip}{0pt}
+\setlength{\belowcaptionskip}{10pt}
+\topmargin -1.5cm        
+\oddsidemargin -0.04cm   
+\evensidemargin -0.04cm
+\textwidth 16.59cm
+\textheight 21.94cm 
+%\pagestyle{empty} %comment if want page numbers
+\parskip 0pt
+\renewcommand{\baselinestretch}{1.5}
+\parindent 15pt
+
+\newmdenv[
+  topline=true,
+  bottomline=true,
+  skipabove=\topsep,
+  skipbelow=\topsep
+]{siderules}
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+\title{Memory effects in tree phenology}
+\author{Daniel Buonaiuto}
+\data{\today}
+
+\section*{Introduction}
+\par Phenology, the timing of annual life cycle events \citep{}, is an important ecosystem structuring process \citep{}, and allows organisms to match life cycle transitions with appropriate environmental conditions \citep{}.The study of phenology has a long history, but in recent years, the field has recieved increased attentions as phenological shifts have been widely observed across a large number of taxa as a reponse to anthropogenic climate change \citep{Menzel2006}. Such shifts in phenology have been strongly pronouced in temperate forest trees, which, on average over the last several decades, are initiating leaf out about 4.6 days earlier per degree Celsius increase \citep{Polgar2014, Wolkovich2012}. For plants in general, both genetic adaptation and phenotypic plasticity are thought to be involved in determining phenological patterns \citep{}, and the partitioning of these influences has only recently begun to be being explored \citep{}. It is generally accepted that the optimum timing spring phenological events, such as budburst, leaf out and flowering, is a relative equilibrium between maximizing the growing season and minimizing the potential for frost damage, and that these optimums vary between environments \citep{Kramer1995}. Spring climate patterns in the temperate zone are highly variable, and more precise phenolgical matching, is strongly determined by phenotypic plasticity \citep{}. There is considerable debate as to whether or not current reactions norms of plastic phenotypic response will be adaquate to maintain optimum timing as climing warms, and it is likely the answer to this question will differ regionally, and between taxa \citep{}. Because trees are long lived organisms, with generation times that often excede the duration of observed phenological shifting, it is likely that the phenological shifts we have seen as a reaction to climate change this far are plastic in nature.
+\par  Phenotypic plasticity is generally thought to be adaptive for adjusting to new or variable environments \citep{}, but plastic responses are only beneficial when the extrinsic signals which induce them are reliable cues for greater environmental conditions. For temperate woody plants, it is generally accepted that the dominant cues for phenological events are vernalization temperatures (in winter), forcing temperatures (in spring) and photoperiod \citep{}. It is clear that the interactions between these cues are complex, and behave differently for different species and in different locations \citep{}. Even under current climate conditions, the reliability of these cues is suspect, and there are many examples of plants populations experiencing negative fitness consequences due to mistimed phenological events \cite{Inouye2008}. As of yet, I know of no doccumented cases of such "false positives" having irrevrivalbe demographic consequences, but in this area, the effects of global change are uncertain. Anthropogenic climate change is not only expected to result in general warming trends, but many climate models predict alterations to the variability of local climates, with changes in the frequency and intesitity of extreme weather events \citep{}. Changes of this nature render such environmental cues unreliable, and plastic responses to seasonal change may have negative fitness consequences.
+\par But phenological plasticity is not without its own checks and balances. Epigenetic interactions between an tree's genotpye and environment maybe important mechanism shaping and constraining the plastic response of phenology, allowing trees to extract more reliable "information" about their local environment, fine-tuning their phenological response even in the face of less than perfect extrinsic cues. In the following sections, I discuss 1) evidence for epigenetic modification on phenology of temperate trees and 2) the possible effects of such epigenetic influence on tree fitness in a changing climate.
+\section{Epigenetic memory effects}
+Evidence for maternal effects
+Give examples-
+short coming, cold or warm year could be an anomoly.
+\par But as mentioned above, trees tend to have long generation time, and climate is extremely variable within the life time of a tree. Are there epigenetic memory effects that can accumulate within the lifetime of a single indivudal? Future plastic response is constrained by past experience. A subcatagory of epigenetic memory effects called carryover \citep{O'Connor2014}. Below I will discuss two catagories of carryover effects in phenology: Carryover effect between phenophases, and carryover effects between seasons. In the following pages, will discuss the theoretical justification and limited experimental evidence for carryover effects in each catagory, as well as outline future directions for research.
+\section{Carryover effects between phenophases}
+The relationship between phenophases is largely understudied. Some phenopases are very obviously related such as flowering time and fruit set. However in temperate trees, studies that consider possible relationships between reproducetive and productive phenophases are lacking, in fact, these phenological observations of both together are rarely considered histroyically. But seperating them entirely is wrong. There are certainly physiological connections, like resource allocation, and possibly also fitness bennefits to phenologican patterns, ie hysteranthy. Independence of phenology may be constrained by other events which results in diminished optimum for one..due to shared pathways etc, or by be linked adaptively (sentinal effect, hysteranthy) or they may not be as linked as we think. Pilot study showing in some species, it seems possible to flip the order. More research. ALso there is atleast one paper to reference.
+\section{Carryover effects between years}
+1. read paper. Likely nothing. Discuss the mechanism. Epigenetic change lasting. Outline experiment.
+
+
+
+
+
+
+\end{document}

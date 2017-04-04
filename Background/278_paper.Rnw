@@ -1,0 +1,64 @@
+\documentclass{article}
+\usepackage{Sweave}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{siunitx}
+\usepackage{mdframed}
+\usepackage{natbib}
+\bibliographystyle{..//refs/styles/besjournals.bst}
+\usepackage[small]{caption}
+\setkeys{Gin}{width=0.8\textwidth}
+\setlength{\captionmargin}{30pt}
+\setlength{\abovecaptionskip}{0pt}
+\setlength{\belowcaptionskip}{10pt}
+\topmargin -1.5cm        
+\oddsidemargin -0.04cm   
+\evensidemargin -0.04cm
+\textwidth 16.59cm
+\textheight 21.94cm 
+%\pagestyle{empty} %comment if want page numbers
+\parskip 0pt
+\renewcommand{\baselinestretch}{1.5}
+\parindent 10pt
+
+\newmdenv[
+  topline=true,
+  bottomline=true,
+  skipabove=\topsep,
+  skipbelow=\topsep
+]{siderules}
+\begin{document}
+\title{Memory effects in tree phenology}
+\author{Daniel Buonaiuto}
+\data{\today}
+
+\section*{Introduction}
+Phenology, the timing of annual life cycle events \citep{}, is an important ecosystem structuring process \citep{}, and allows for organisms to match life cycle transitions with appropriate environmental conditions \citep{}. For temperare forest trees,the the timing of important spring phenophases, such as leaf out and floral development, is considered to be determined by stabalzing selection; minimizing exposure to early frost events and maximizing the duration of the growing season, and that this adaptive optimum is matched to local environments \citep{Kremer1995}.
+\par
+However,climate patterns of the spring season are notoriously unstable, and with such unpredictable variability, how do trees maintain optimum timing 
+
+and as such, optimum timing of phenological events is largely maintained the phenotypic plasticity of phenology \citep{}. However, plastic responses are only adaptive when environmental signals which induce them are reliable cues for greater environmental conditions \citep{Hendry2016}. In the past several decades, marked shifts in spring phenology have been observed as a response to anthropogenic climate change \citep{Polgar2014, Wolkovich2012}. But in addition to net seasonal warming trends, another predicted signature of anthropogenic climate change is an increase in frequency and magnitude of extreme weather events, especially in the spring \cite{}. For temperature trees, these events may be sensed as false positives for phenophase initation, rendering such environmental cues unreliable, and plastic responses to seasonal change may have negative fitness consequences.
+\par
+However, epigenetic memory effects, may be important mechanisms that shape the plastic response of phenology, allowing trees to extract more reliable "information" about their environment and fine tune their phenological response in the face of the stochastic climate early spring. These effects may successfully constrain the plasticity and temper the phenological  resposnse to possibly unreilable environmental cues. In the following paper I will further explore these memory effects, with a particular focus on how they may be adaptive for forest trees in the anthropocene.
+\par In part 1, I provide background to the subject of phenological responses in trees, breifly discussing the environmental cues that influence the phenology of temperate forest species and review evidence for how trees percieve these cues.\\
+\par In part 2, I broadly introduce the topic of memory effected, and partition memory effects into two categories, intergenerational effects, and seasonal carryover. I will discuss the evidence for each category of effects in the literature and explore the adaptive signficance of each resposne in light of climate change.\\
+\par In part 3, I will discuss directions for further research, with a particular focus of seasonal carryover effects, which has been understudied in the evolutionary ecology field.\\
+\section{Phenologic Cues}
+forcing\\
+chilling\\
+photoperiod\\
+perception\\
+\section{Parental Effects}
+\par There is an emergingy body of literature that has found evidence for epigenetic modifincation of tree phenology. To date, most of this work has been performed in conifers, and the results are well reviewed in Brautigam et al \citeyear{Brautigam} 
+
+General: Maternal or Paternal, little evidence for paternal so I will primarnily discuss maternal.\\
+Adaptive significance. Less responsive to variation\\
+\section{Carryover Effects}
+\subsection{Carryover between phenophases}
+\subsection{Carryover Between seasons}
+\section{Future Directions}
+
+
+
+\end{document}
