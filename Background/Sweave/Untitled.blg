@@ -1,13 +1,16 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Untitled.aux
 The style file: ..//refs/styles/besjournals.bst.bst
 I found no \bibdata command---while reading file Untitled.aux
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Wolkovich2014"
+Warning--I didn't find a database entry for "menzel"
+Warning--I didn't find a database entry for "wolkovich"
+Warning--I didn't find a database entry for "Stearns2000"
 You've used 0 entries,
             2805 wiz_defined-function locations,
-            1041 strings with 11803 characters,
+            1045 strings with 11840 characters,
 and the built_in function-call counts, 27 in all, are:
 = -- 0
 > -- 0
