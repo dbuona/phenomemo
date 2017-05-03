@@ -1,5 +1,13 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Anderson \emph{et~al.}(2012)Anderson, Inouye, McKinney, Colautti \&
+  Mitchell-Olds}]{Anderson2012}
+Anderson, J.T., Inouye, D.W., McKinney, A.M., Colautti, R.I. \& Mitchell-Olds,
+  T. (2012) Phenotypic plasticity and adaptive evolution contribute to
+  advancing flowering phenology in response to climate change.
+  \emph{Proceedings of the Royal Society B: Biological Sciences} \textbf{279},
+  3843--3852.
 
 \bibitem[{Aschan, G. &~Pfanz(2003)}]{Aschan2003}
 Aschan, G. &~Pfanz, H. (2003) Non-foliar photosynthesis -- a strategy of
@@ -11,26 +19,50 @@ Auge, G.A., Blair, L.K., Neville, H. \& Donohue, K. (2017) Maternal
   vernalization and vernalization-pathway genes influence progeny seed
   germination. \emph{New Phytologist} .
 
+\bibitem[{Austen \emph{et~al.}(2017)Austen, Rowe, Stinchcombe \&
+  Forrest}]{Austen2017}
+Austen, E., Rowe, L., Stinchcombe, J. \& Forrest, J. (2017) Explaining the
+  apparent paradox of persistent selection for early flowering. \emph{New
+  Phytologist} \textbf{214}.
+
+\bibitem[{Blackman(2016)}]{Blackman2017}
+Blackman, B.K. (2016) Changing responses to changing seasons: Natural variation
+  in the plasticity of flowering time. \emph{Plant Physiology} \textbf{173},
+  16--26.
+
 \bibitem[{Forrest \& Miller-Rushing(2010)}]{Forrest2010}
 Forrest, J. \& Miller-Rushing, A.J. (2010) Toward a synthetic understanding of
   the role of phenology in ecology and evolution. \emph{Philosophical
   Transactions of the Royal Society B: Biological Sciences} \textbf{365},
   3101--3112.
 
+\bibitem[{Glover(2014)}]{Glover2014}
+Glover, B. (2014) \emph{Understanding Flowers & Flowering}. Oxford University
+  Press (OUP).
+
 \bibitem[{Gunatilleke \& Gunatilleke(1984)}]{Gunatilleke1984}
 Gunatilleke, C.V.S. \& Gunatilleke, I.A.U.N. (1984) Some observations on the
   reproductive biology of three species of cornus(cornaceae). \emph{Journal of
   the Arnold Arboretum} \textbf{65}, 419--427.
+
+\bibitem[{Guo \emph{et~al.}(2014)Guo, Luedeling, Dai \& Xu}]{Guo2014}
+Guo, L., Luedeling, E., Dai, J. \& Xu, J. (2014) Differences in heat
+  requirements of flower and leaf buds make hysteranthous trees bloom before
+  leaf unfolding. \emph{Plant Diversity and Resources} \textbf{36}, 245--253.
 
 \bibitem[{Kramer(1995)}]{Kramer1995}
 Kramer, K. (1995) Phenotypic plasticity of the phenology of seven european tree
   species in relation to climatic warming. \emph{Plant, Cell and Environment}
   \textbf{18}, 93--104.
 
-\bibitem[{Lamont, Byron B. &~Downes(2011)}]{Lamont2011}
-Lamont, Byron B. &~Downes, B.B. (2011) Fire-stimulated flowering among
-  resprouters and geophytes in australia and south africa. \emph{Plant Ecology}
+\bibitem[{Lamont \& Downes(2011)}]{Lamont2011}
+Lamont, B.B. \& Downes, B.B. (2011) Fire-stimulated flowering among resprouters
+  and geophytes in australia and south africa. \emph{Plant Ecology}
   \textbf{212}, 2111--2125.
+
+\bibitem[{Lechowicz(1995)}]{Lechowicz1995}
+Lechowicz, M.J. (1995) Seasonality of flowering and fruiting in temperate
+  forest trees. \emph{Canadian Journal of Botany} \textbf{73}, 175--182.
 
 \bibitem[{Menzel \emph{et~al.}(2006)Menzel, Sparks, Estrella, Koch, AASA, AHAS,
   ALM-K{\"U}BLER, BISSOLLI, BRASLAVSK{\'A}, BRIEDE \& et~al.}]{Menzel2006}
@@ -45,6 +77,24 @@ Miller{\'o}n, M., L{\'o}pez~de Heredia, U., Lorenzo, Z., Perea, R., Dounavi,
   A., Alonso, J., Gil, L. \& Nanos, N. (2012) Effect of canopy closure on
   pollen dispersal in a wind-pollinated species (fagus sylvatica l.).
   \emph{Plant Ecology} \textbf{213}, 1715--1728.
+
+\bibitem[{Rathcke \& Lacey(1985)}]{Rathcke1985}
+Rathcke, B. \& Lacey, E. (1985) Phenological patterns of terrestrial plants.
+  \emph{Annual Review of Ecology, Evolution and Systematics} \textbf{16},
+  179--214.
+
+\bibitem[{Robertson(1895)}]{Robertson1885}
+Robertson, C. (1895) The philosophy of flower seasons, and the phaenological
+  relations of the entomophilous flora and the anthophilous insect fauna.
+  \emph{The American Naturalist} \textbf{29}, 97--117.
+
+\bibitem[{Stearns(2000)}]{Stearns2000}
+Stearns, S.C. (2000) Life history evolution: successes, limitations, and
+  prospects. \emph{Naturwissenschaften} \textbf{87}, 476--486.
+
+\bibitem[{Tauber(1967)}]{Tauber1967}
+Tauber, H. (1967) Investigations of the mode of pollen transfer in forested
+  areas. \emph{Review of Palaeobotany and Palynology} \textbf{3}.
 
 \bibitem[{Whitehead(1969)}]{Whitehead1969}
 Whitehead, D.R. (1969) Wind pollination in the angiosperms: Evolutionary and
